@@ -154,7 +154,7 @@
 	color = null
 	icon_state = "nun"
 	item_state = "nun"
-	allowed_race = list("humen", "tiefling", "argonian", "elfd", "elfw", "helf", "dwarfm", "aasimar")
+	allowed_race = ALL_RACES_LIST
 	allowed_sex = list(FEMALE)
 
 /obj/item/clothing/suit/roguetown/shirt/robe/wizard
@@ -168,7 +168,7 @@
 	r_sleeve_status = SLEEVE_NORMAL
 	l_sleeve_status = SLEEVE_NORMAL
 	allowed_sex = list(MALE)
-	allowed_race = list("humen", "tiefling", "argonian", "aasimar", "halforc")
+	allowed_race = ALL_RACES_LIST
 	color = null
 	sellprice = 100
 
